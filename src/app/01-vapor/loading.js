@@ -2,9 +2,7 @@ import React from "react";
 import LibraryGameCardSkeleton from "@/components/LibraryGameCardSkeleton";
 import { range } from "@/utils";
 
-export const dynamic = "force-dynamic";
-
-async function VaporExercise() {
+function VaporLoading() {
   return (
     <section className="max-width-wrapper">
       <header className="library-header">
@@ -19,4 +17,4 @@ async function VaporExercise() {
   );
 }
 
-export default VaporExercise;
+export default VaporLoading;
